@@ -1,4 +1,4 @@
-# Francis Adeepoju. 7 Feb 2018
+# Francis Adepoju. 7 Feb 2018
 # The Collatz conjecture program
 # https://en.wikipedia.org/wiki/Collatz_conjecture
 
