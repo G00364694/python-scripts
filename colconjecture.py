@@ -1,6 +1,7 @@
 # Francis Adeepoju. 7 Feb 2018
 # The Collatz conjecture program
 # https://en.wikipedia.org/wiki/Collatz_conjecture
+# see moification in git
 
 intVar = int(input("Please Enter an Integer number: "))   # Take integer input
 #intVar = 12
