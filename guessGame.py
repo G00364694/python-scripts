@@ -13,6 +13,6 @@ while guess != target:
     if guess == target:
         print("Well done! You guessed correctly")
     elif guess < target:
-        print("Too low")
+        print("Too low, increase your number please.")
     else:
-        print("Too high!")
+        print("Too high, please reduce!")
