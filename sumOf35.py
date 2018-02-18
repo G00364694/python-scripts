@@ -10,7 +10,7 @@ while cnt < 1000:
         summ += cnt
     cnt += 1
 print("Sum of the 3 or 5 multiples, less than 1000 is: ", summ)
-
+print("Repeat...Sum of the 3 or 5 multiples, less than 1000 is: ", summ)
 
 
 
