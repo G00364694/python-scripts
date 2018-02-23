@@ -24,5 +24,5 @@ def lcm(x, y):
 smallestInteger = 1
 for i in range(1, 21):     # Find the least common multiple of 1 & 20, recursively
 	smallestInteger = lcm(smallestInteger, i)
-	print("factor found :", smallestInteger)
+	print("factor found :", int(smallestInteger)) 
 print("Euclidean Algorithm Implementation yields: ", int(smallestInteger))
