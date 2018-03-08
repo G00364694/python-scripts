@@ -19,7 +19,10 @@ with open("data/iris.csv") as inputFile:        # Open the input iris data file
 
         # Data are formatted and printed on the screen as required.
         print('{0:.1f} {1:.1f} {2:.1f} {3:.1f}'.format(col1, col2, col3, col4))
-        #print(col5, end='') 
+        # Using the python f-Strings to print same
+        print(f'{col1} {col2} {col3} {col4}')
+        print("--")
+        #  
 print("End of file processing")                 # End of processing.
 
 
