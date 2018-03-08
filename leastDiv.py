@@ -16,7 +16,17 @@
 
 def gcd(x, y):
 	#return y and gcd(y, x % y) or x     # Compute the greatest common denominator (gcd) function
-  return (y and gcd(y, x % y) or x)
+  	# return (y and gcd(y, x % y) or x)	 # This line imlementation works
+	while x != 0 and y != 0:
+		if x > y:
+			x = x % y
+		else:
+			y = y % x
+
+	if x == 0:
+		return y
+	else: 
+		return x		
 
 def lcm(x, y):
 	return (x * y / gcd(x, y))
@@ -26,3 +36,6 @@ for i in range(1, 21):     # Find the least common multiple of 1 & 20, recursive
 	smallestInteger = lcm(smallestInteger, i)
 	print("factor found :", int(smallestInteger)) 
 print("Euclidean Algorithm Implementation yields: ", int(smallestInteger))
+print("")
+print (f'TEST: The gcd of 221 and 323 is {gcd(221, 323)}')
+
