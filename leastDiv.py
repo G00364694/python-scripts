@@ -1,5 +1,5 @@
-# Francis Adepoju, 2018-02-14
-# the smallest positive number that is evenly divisible by all of the numbers from 1 to 20... Euler problem 5
+# Francis Adepoju, 2018-02-14		Ex. #4
+"""# the smallest positive number that is evenly divisible by all of the numbers from 1 to 20... Euler problem 5
 # 
 # ... https://www.w3resource.com/euler-project/euler-problem5.php#
 # Given that 2520 is the smallest number that can be divided by each of the numbers from 1 to 10 without any remainder.
@@ -13,7 +13,7 @@
 # The program to find this number will start at 2, iterate to 20, and for each of those numbers it will divide by every 
 # known prime less than that number (technically any prime less than the square root of the number) to determine their factorization. 
 # We will find the numbers that are prime as we go (they won't be divisible by any lesser prime, by definition).
-
+"""
 def gcd(x, y):
 	#return y and gcd(y, x % y) or x     # Compute the greatest common denominator (gcd) function
   	# return (y and gcd(y, x % y) or x)	 # This line imlementation works
