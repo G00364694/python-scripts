@@ -27,12 +27,13 @@ def gcd(x, y):
 		return y
 	else: 
 		return x		
-
+# Function to compute the lcm of two numbers
 def lcm(x, y):
 	return (x * y / gcd(x, y))
 
+# Find the least common multiple of 1 & 20, recursively
 smallestInteger = 1
-for i in range(1, 21):     # Find the least common multiple of 1 & 20, recursively
+for i in range(1, 21):     
 	smallestInteger = lcm(smallestInteger, i)
 	print("factor found :", int(smallestInteger)) 
 print("Euclidean Algorithm Implementation yields: ", int(smallestInteger))
