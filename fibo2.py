@@ -1,13 +1,8 @@
 # Author Francis Adepoju  Ex. 2
 # A program that displays Fibonacci numbers using people's names.
 """
-# This program calculates and displays Fibonacci numbers.(Numbers generated with the ord function)
-# This program calculates the nth Fibonacci number where n the 
-# sum of the first and last letters of my first name as numbers. 
-# Taking A as the number 1, B as 2, C as 3, and so on. 
-# For example, name = Ian, so I should calculate the 25th Fibonacci 
-# number because I is 9 and n is 14, giving 25 in total.
-# F= 6 and S = 19
+ This program calculates and displays Fibonacci numbers.(Numbers generated with the ord function)
+ This program calculates the nth Fibonacci number where n the sum of the first and last letters of my surname name as numbers obtained by using the ord() inbuilt function. 
 """
 
 def fib(n):
