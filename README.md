@@ -1,7 +1,6 @@
-# 1.) This program calculates and displays Fibonacci numbers(Hard coded number). 
- This program calculates the nth Fibonacci number where n the sum of the first and last letters of my first name as numbers. 
- Taking A as the number 1, B as 2, C as 3, and so on. 
- For example, for Francis, F =6 and s = 19 giving 25 in total, so I should calculate the 25th Fibonacci number.
+# 1.) Fibonacci on Firstname (fibo.py)
+ This program calculates and displays Fibonacci number, Hard coded number(n). The program calculates the nth Fibonacci number where n the  sum of the first and last letters of my first name as numbers. Taking A as the number 1, B as 2, C as 3, and so on. 
+ For example, for Francis, F = 6 and s = 19 giving 25 in total, so I would calculate the 25th Fibonacci number.
 
 # 2.) Fibonacci on Surname (fibo2.py)
 This file computes the fibonacci on the first and last characters of my lastname, using the ord() built in function of python.
