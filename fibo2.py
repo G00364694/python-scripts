@@ -22,11 +22,11 @@ def fib(n):
   
   return i
 
-#name = "McLoughlin"
+# name to use as seed in this algorithm
 name = "Adepoju"
 first = name[0]
 last = name[-1]
-# The ord builtin function returns the ASCII number equivalent of the argument passed into it.
+# The ord builtin function returns the ASCII number equivalent of the char argument passed into it.
 firstno = ord(first)
 lastno = ord(last)
 x = firstno + lastno
