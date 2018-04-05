@@ -22,7 +22,7 @@ while intVar != 1:
     else:
         #Not Even so, multiply by 3 and add 1 to intVar
         intVar = (intVar * 3) + 1           
-
+# Print final result to screen
 print ("% 3d" % intVar)                     # End of while loop
 print(f'{intVar}')                          # Use the f-string feature of python-3
 
