@@ -24,8 +24,8 @@ with open("data/iris.csv") as inputFile:
         samplesTotal = samplesTotal + 1
         # Data are formatted and printed on the screen as required.
         # print('{0:.1f} {1:.1f} {2:.1f} {3:.1f}'.format(col1, col2, col3, col4))
-        # Using the python f-Strings to print same
-        print(f'{col1} {col2} {col3} {col4} -- {col5}')
+        # Using the python f-Strings to print same ,end='' will remove the inherent cr following ending strings
+        print(f'{col1} {col2} {col3} {col4} --> {col5}', end='')
     print("Total Samples = " + str(samplesTotal))
         #  
 print("End of file processing")                 # End of processing.
