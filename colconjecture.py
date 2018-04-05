@@ -2,12 +2,12 @@
 # The Collatz conjecture program
 # https://en.wikipedia.org/wiki/Collatz_conjecture
 """
-# Python script that starts with an integer and repeatedly applies the Collatz function 
-# (divide by 2 if even, multiply by three and 1 if odd) using a while loop and if statement. 
-# At each iteration, the current value of the integer should be printed to the screen. 
-# You can specify in your code the starting value of 17. 
-# If you wish to enhance your program, have the program ask the user for the integer instead of 
-# specifying a value at the start of your code. 
+ Python script that starts with an integer and repeatedly applies the Collatz function 
+ (divide by 2 if even, multiply by three and 1 if odd) using a while loop and if statement. 
+ At each iteration, the current value of the integer should be printed to the screen. 
+ You can specify in your code the starting value of 17. 
+ If you wish to enhance your program, have the program ask the user for the integer instead of 
+ specifying a value at the start of your code. 
 """
 # Accept an integer input from the Keyboard
 print("*******************************")
@@ -24,6 +24,7 @@ while intVar != 1:
         intVar = (intVar * 3) + 1           
 # Print final result to screen
 print ("% 3d" % intVar)                     # End of while loop
-print(f'{intVar}')                          # Use the f-string feature of python-3
+# Use the f-string feature of python-3
+print(f'{intVar}')                          
 
 
