@@ -1,12 +1,10 @@
 # Francis Adepoju...2018, January  Ex. 1
 """
-# This program calculates and displays Fibonacci numbers.(Hard coded number)
-# This program calculates the nth Fibonacci number where n the 
-# sum of the first and last letters of my first name as numbers. 
-# Taking A as the number 1, B as 2, C as 3, and so on. 
-# For example, name = Ian, so I should calculate the 25th Fibonacci 
-# number because I is 9 and n is 14, giving 25 in total.
-# F= 6 and S = 19
+ This program calculates and displays Fibonacci numbers.(Hard coded number)
+ This program calculates the nth Fibonacci number where n the 
+ sum of the first and last letters of my first name as numbers. 
+ Taking A as the number 1, B as 2, C as 3, and so on. 
+ For example, Francis, F = 6 and s = 19 giving 25 in total so I should calculate the 25th Fibonacci number.
 """
 # Define the fibo function
 def fib(n):
