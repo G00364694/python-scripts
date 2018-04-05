@@ -8,6 +8,7 @@
 # number because I is 9 and n is 14, giving 25 in total.
 # F= 6 and S = 19
 """
+# Define the fibo function
 def fib(n):
   """This function returns the nth Fibonacci number."""
   i = 0
@@ -20,7 +21,7 @@ def fib(n):
   
   return i
 
-# Test the function with the following value.
+# Test the function with the following value computed from my name as required.
 x = 32
 y = 6 + 19
 ans = fib(x)
