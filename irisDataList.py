@@ -3,13 +3,12 @@
 # Investigating the Iris_flower_data_set
 # http://archive.ics.uci.edu/ml/machine-learning-databases/iris/
 """
-#
-# A Python script that reads in the Iris data set stored in the data subdirectory under
-# the current project and then prints the four numerical values on 
-# each row in a nice format on the screen. The printed data are for:
-# petal length, petal width, sepal length and sepal width. 
-# These values are listed with decimal places aligned, and 
-# with a space between the columns.
+ A Python script that reads in the Iris data set stored in the data subdirectory under
+ the current project and then prints the four numerical values on 
+ each row in a nice format on the screen. The printed data are for:
+ petal length, petal width, sepal length and sepal width. 
+ These values are listed with decimal places aligned, and 
+ with a space between the columns.
 """ 
 # Open the input iris data file using the with keyword
 with open("data/iris.csv") as inputFile: 
@@ -26,7 +25,7 @@ with open("data/iris.csv") as inputFile:
         # Data are formatted and printed on the screen as required.
         # print('{0:.1f} {1:.1f} {2:.1f} {3:.1f}'.format(col1, col2, col3, col4))
         # Using the python f-Strings to print same
-        print(f'{col1} {col2} {col3} {col4}')
+        print(f'{col1} {col2} {col3} {col4} -- {col5}')
     print("Total Samples = " + str(samplesTotal))
         #  
 print("End of file processing")                 # End of processing.
